@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    div.container
+        div.row(style="padding: 15px")
+            h1 Hi #{user.nickname}
+        div.row
+            img(src=user.picture)
+            p(style="padding: 20px") Text...
